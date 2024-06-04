@@ -48,5 +48,5 @@ jobs:
           key: ${{ secrets.SSH_KEY }}
           port: "22"
           script: |
-            git clone https://github.com/adhithia21/belajar-git-batch-14.git
+            git clone https://adhithia21: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@github.com/adhithia21/belajar-git-batch-14.git
 

@@ -1,1 +1,29 @@
+on:
+  push:
+    branches:
+    - master
 
+jobs:
+  test:
+    name: run unit test
+    runs-on: ubuntu-22.04
+    steps:
+      - name: run unit test
+        run: |
+          echo "misalnya ini akan running unit test"
+
+  build:
+    name: build app
+    runs-on: ubuntu-22.04
+    steps:
+      - name: run build app
+        run: |
+          echo "misalnya ini akan build aplikasi"
+
+  deploy:
+    name: deploy app to server
+    runs-on: ubuntu-22.04
+    steps:
+      - name: run deploy
+        run: |
+          echo "misalnya ini akan deploy aplikasi ke server"

@@ -49,4 +49,5 @@ jobs:
           port: "22"
           script: |
             git clone https://adhithia21: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@github.com/adhithia21/belajar-git-batch-14.git
+            mv -R belajar-git-batch-14/* /var/www/html
 

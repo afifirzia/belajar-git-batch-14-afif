@@ -44,46 +44,8 @@ jobs:
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: "157.245.61.219"
-          username: "root"
-          key: |
-            -----BEGIN OPENSSH PRIVATE KEY-----
-            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
-            -----END OPENSSH PRIVATE KEY-----
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_KEY }}
           port: "22"
           script: |
             pwd

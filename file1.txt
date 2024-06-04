@@ -1,0 +1,2 @@
+ini contoh file 1
+update file 1

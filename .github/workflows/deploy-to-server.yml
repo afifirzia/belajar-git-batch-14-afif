@@ -14,6 +14,11 @@ jobs:
       - name: list file
         run: |
           ls -la
+      - name: clone repository
+        uses: actions/checkout@v4
+      - name: list file lagi
+        run: |
+          ls -la
 
   build:
     name: build app
